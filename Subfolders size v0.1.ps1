@@ -1,4 +1,4 @@
-$startFolder = "C:\Users\stagiaire";
+$startFolder = "C:\TEST";
 $totalSize = 0;
 
 $colItems = (Get-ChildItem $startFolder -recurse | Where-Object {$_.PSIsContainer -eq $True} | Sort-Object)
